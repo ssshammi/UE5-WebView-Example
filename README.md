@@ -105,3 +105,17 @@ Finally we execute the custom javascript that we use to listen to the website ev
 ```cpp
 this->ExecuteJavascript(UReadyPlayerMeWebBrowser::javascriptSnippet);
 ```
+
+## Dependencies
+- Ready Player Me Unreal SDK 
+- glTFRuntime (Third party plugin)
+
+## Links
+**Ready Player Me Unreal SDK**
+- [Documentation](https://link-url-here.org)
+- [Download](https://docs.readyplayer.me/ready-player-me/integration-guides/unreal-engine-4/unreal-plugin-download)
+- [Support](mailto:support@wolf3d.io)
+
+**glTFRuntime**
+- [Documentation](https://github.com/rdeioris/glTFRuntime-docs/blob/master/README.md)
+
