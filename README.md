@@ -43,7 +43,7 @@ Lets take at the first group of nodes connected to the widget's construct event.
 
 ![img-setup-and-bind](https://user-images.githubusercontent.com/7085672/163365180-1a498452-8f3c-4ec3-b735-d62199ac6817.png)
 
-As you may have noticed the Setup Browser function above has a callback function called Response. To make use of this there is the `AvatarGeneratedCallback` event which will call the `AvatarGeneratedEvent`. The `AvatarGenerated` event it a an Event Dispatcher that can be subscribed to this is to make it easy to connect callback functions whenever an avatar has been created. Next we also have a froupd groud of nodes to handle an optional AutoHide feature. If the `HideAfterAvatarGeneration` property is set to true it will automatically hide the widget after character creation is complete.
+As you may have noticed the Setup Browser function above has a callback function called Response. To make use of this there is the `AvatarGeneratedCallback` event which will call the `AvatarGeneratedEvent`. The `AvatarGenerated` event it a an Event Dispatcher that can be subscribed to. This was added to make it easy to connect callback functions whenever an avatar has been created. Next we also have a groud of nodes to handle an optional AutoHide feature. If the `HideAfterAvatarGeneration` property is set to true it will automatically hide the widget after character creation is complete.
 
 ![img-callback-and-hide](https://user-images.githubusercontent.com/7085672/163376787-073c89ad-bea5-4f6f-9855-62472f9e600b.png)
 
